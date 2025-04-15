@@ -1,0 +1,152 @@
+.certificate-detail {
+  font-family: "Arial", sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.certificate-layout {
+  border: 5px solid #004a99;
+  border-radius: 15px;
+  padding: 20px;
+  background: linear-gradient(to bottom right, #e6f0ff, #ffffff);
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.certificate-header {
+  background: #004a99;
+  color: #ffffff;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.certificate-header h1 {
+  font-size: 28px;
+  margin: 0;
+}
+
+.certificate-content {
+  margin-bottom: 40px;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.certificate-intro {
+  font-size: 18px;
+  font-weight: bold;
+  color: #004a99;
+}
+
+.certificate-content h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #004a99;
+}
+
+.certificate-content h3 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #004a99;
+}
+
+.certificate-content p {
+  font-size: 18px;
+}
+
+.additional-text {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #333;
+}
+
+.signature-section {
+  margin-top: 40px;
+}
+
+.signature-line {
+  border-top: 1px solid #000;
+  width: 200px;
+  margin: 10px auto;
+}
+
+.date-section {
+  margin-top: 10px;
+}
+
+.qr-code-section {
+  margin-top: 20px;
+}
+
+.certificate-actions {
+  margin-top: 20px;
+}
+
+.certificate-actions button {
+  background-color: #004a99;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 5px;
+}
+
+.certificate-actions button:hover {
+  background-color: #003366;
+}
+
+/* Footer */
+.footer {
+  background: linear-gradient(90deg, #1f2425, #2a5298);
+  color: #fff;
+  text-align: center;
+  padding: 30px 20px;
+  border-top: 2px solid #004a99;
+  margin-top: 50px;
+}
+
+.footer h3 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.footer p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.footer-links {
+  margin: 20px 0;
+}
+
+.footer-links a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.footer-bottom a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.footer-bottom a {
+  text-decoration: underline;
+}

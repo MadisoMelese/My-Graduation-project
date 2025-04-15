@@ -15,7 +15,7 @@ const AdminSidebar = () => {
       <div className="flex items-center mb-6">
         <h1 className="text-2xl">Admin Dashboard</h1>
       </div>
-      <div div className="flex flex-col space-y-4">
+      <div className="flex flex-col space-y-4">
         gggggggggggggggggggggg
       </div>
       <div className="flex flex-col space-2">

@@ -1,5 +1,3 @@
-@import "tailwindcss";
-
 .admin-dashboard {
   font-family: 'Roboto', sans-serif;
   color: #333;
@@ -36,18 +34,6 @@
   padding: 60px 20px;
 }
 
-.admin-sidebar{
-  background: #2a5298;
-  color: #fff;
-  padding: 20px;
-  width: 250px;
-  position: fixed;
-  top: 80px; /* Adjusted to account for the hero section height */
-  left: 0;
-  height: calc(100% - 80px); /* Full height minus the hero section */
-  overflow-y: auto;
-  
-}
 /* Dashboard Cards */
 .dashboard-cards {
   display: flex;

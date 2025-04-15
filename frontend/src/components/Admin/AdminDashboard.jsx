@@ -3,9 +3,6 @@ import { Line, Bar } from "react-chartjs-2";
 import { FaUser, FaChartBar, FaListAlt, FaFileExcel } from "react-icons/fa";
 import "./AdminDashboard.css";
 import axios from "axios";
-import { Link } from "react-router-dom";
-import AdminSidebar from "./Adminsidebar";
-
 
 // Sample data for charts
 const lineChartData = {
@@ -36,10 +33,7 @@ const AdminDashboard = () => {
   const [file, setFile] = useState(null);
   const [uploadStatus, setUploadStatus] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
-  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
-  const toggleSidebar = () =>{
-    setIsSidebarOpen(!isSidebarOpen);
-  }
+
   // Function to handle file selection
   const handleFileChange = (e) => {
     setFile(e.target.files[0]);
@@ -66,7 +60,7 @@ const AdminDashboard = () => {
       }
 
       const response = await axios.post(
-        "http://localhost:5000/api/upload ", // Ensure this matches your backend route
+        "http://localhost:5000/api/upload", // Ensure this matches your backend route
         formData,
         {
           headers: {
@@ -97,14 +91,13 @@ const AdminDashboard = () => {
   };
 
   return (
-    <div className="admin-dashboard min-h-screen flex flex-col md:flex-row relative ">
+    <div className="admin-dashboard">
       {/* Header Section */}
-
-      <header className="hero-section ">
+      <header className="hero-section">
         <h1>Admin Dashboard</h1>
         <p>Manage and review the platform's performance and user data here.</p>
       </header>
-  <AdminSidebar />
+
       {/* Main Dashboard Content */}
       <section className="dashboard-content">
         <div className="dashboard-cards">
@@ -167,14 +160,14 @@ const AdminDashboard = () => {
           services with a commitment to customer satisfaction.
         </p>
         <div className="footer-links">
-          <Link to={"#"}>Privacy Policy</Link>
-          <Link to={"#"}>Terms of Service</Link>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Termsq of Service</a>
+          <a href="#">Contact Us</a>
         </div>
-        <div className="footer-bottom">/
+        <div className="footer-bottom">
           <p>
             &copy; 2025 CertiSys. All rights reserved. | Designed by{" "}
-          <Link to={"#"}>Bonga University 4'th Year Computer Science Studentss</Link>
-
+            <a href="#">Bonga University 4'th Yeujar Computer Science Students</a>
           </p>
         </div>
       </footer>
