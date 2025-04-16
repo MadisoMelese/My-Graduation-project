@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Login.css';
+// import './Login.css';
 import { FaChartLine, FaThumbsUp, FaCog } from 'react-icons/fa';
 import Chart from 'chart.js/auto';
 import { Line, Bar } from 'react-chartjs-2';

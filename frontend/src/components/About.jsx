@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaHandshake, FaStar, FaLaptopCode, FaShieldAlt } from 'react-icons/fa';
-import './About.css';
+// import './About.css';
 
 const About = () => {
   return (
